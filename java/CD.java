@@ -7,8 +7,8 @@ public class CD
 	private String owner;
 	//contructor
 	public CD(String author,String title){
-		author = author; title = title;
-		owner = null;
+		this.author = author; 
+		this.title = title;
 	}
 	public void printCD(){
 		System.out.println("Author : " +author);
