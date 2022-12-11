@@ -9,6 +9,7 @@ public class CD
 	public CD(String author,String title){
 		this.author = author; 
 		this.title = title;
+		setOwner(owner);
 	}
 	public void printCD(){
 		System.out.println("Author : " +author);
@@ -27,6 +28,6 @@ public class CD
 		return owner;
 	}
 	public void setOwner(String owner){
-		owner = owner;
+		this.owner = owner;
 	}
 }
